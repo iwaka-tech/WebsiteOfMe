@@ -1,0 +1,23 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "bg-video-1",
+      "description": "Abstract cosmic purple flow",
+      "imageUrl": "https://assets.mixkit.co/videos/preview/mixkit-abstract-flowing-purple-and-blue-neon-lights-28751-large.mp4",
+      "imageHint": "abstract purple video"
+    },
+    {
+      "id": "bg-video-2",
+      "description": "Soft atmospheric purple clouds",
+      "imageUrl": "https://assets.mixkit.co/videos/preview/mixkit-beautiful-aerial-shot-of-a-purple-sunset-over-the-mountains-33633-large.mp4",
+      "imageHint": "purple sunset video"
+    },
+    {
+      "id": "bg-video-3",
+      "description": "Modern dark purple tech network",
+      "imageUrl": "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-purple-and-blue-glowing-dots-23214-large.mp4",
+      "imageHint": "digital purple network"
+    }
+  ]
+}

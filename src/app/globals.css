@@ -1,0 +1,67 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 275 17% 14%;
+    --foreground: 0 0% 98%;
+    --card: 275 17% 18%;
+    --card-foreground: 0 0% 98%;
+    --popover: 275 17% 14%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 269 28% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 275 17% 24%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 275 10% 20%;
+    --muted-foreground: 275 10% 70%;
+    --accent: 234 91% 74%;
+    --accent-foreground: 234 91% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 275 17% 24%;
+    --input: 275 17% 24%;
+    --ring: 234 91% 74%;
+    --radius: 0.75rem;
+    --chart-1: 269 28% 42%;
+    --chart-2: 234 91% 74%;
+    --chart-3: 275 17% 24%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl;
+}
+
+.btn-transparent {
+  @apply bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300;
+}
+
+.video-overlay {
+  @apply fixed inset-0 z-[-1] overflow-hidden pointer-events-none;
+}
+
+.video-overlay::after {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background/90;
+}
